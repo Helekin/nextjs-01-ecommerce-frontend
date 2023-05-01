@@ -8,7 +8,7 @@ export default function signUp() {
   return (
     <>
       <JoinLayout>
-        <div>
+        <div className={styles.signUp}>
           <h3>Create Account</h3>
         </div>
       </JoinLayout>
