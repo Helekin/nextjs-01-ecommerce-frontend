@@ -5,7 +5,7 @@ import { BasicLayout } from "@/layouts";
 export default function home() {
   return (
     <BasicLayout>
-      <h2>Home</h2>
+      <h2>Home test</h2>
     </BasicLayout>
   );
 }
