@@ -3,7 +3,9 @@ import React from "react";
 import { BasicLayout } from "@/layouts";
 
 export default function home() {
-  return <BasicLayout isContainer>
-    <h2>Home</h2>
-  </BasicLayout>;
+  return (
+    <BasicLayout>
+      <h2 style={{ paddingTop: 100 }}>Home</h2>
+    </BasicLayout>
+  );
 }
